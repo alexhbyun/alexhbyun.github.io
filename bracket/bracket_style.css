@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: black;
+}
+#finals-logo img {
+	width: 200px;
+	height: auto;
+	position: fixed;
+	left: calc(50% - (200px / 2));
+	top: 200px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+}
+#home-button img {
+	width: 60px;
+	height: auto;
+	position: fixed;
+	left: calc(50% - (60px / 2));
+	top: 550px;
+	cursor: pointer;
+}
+#east-bracket img {
+	width: 650px;
+	height: auto;
+	position: fixed;
+	left: 770px;
+	top: 70px;
+	opacity: 1;
+	animation-name: opac;
+	animation-duration: 5s;
+}
+#west-bracket img {
+	width: 650px;
+	height: auto;
+	position: fixed;
+	left: 15px;
+	top: 70px;
+	opacity: 1;
+	animation-name: opac;
+	animation-duration: 5s;
+}
+@keyframes opac {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
